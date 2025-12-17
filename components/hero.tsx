@@ -14,7 +14,7 @@ interface HeroProps {
 export function Hero({ onWatchDemo }: HeroProps) {
 
   const portalId = "242830238";
-  const formId = "040a98bd-7b7c-46a3-9ba0-db9f344b724c";
+  const formId = "371299e1-44d5-4eab-bb07-cf9c760665f0";
 
   return (
     <section className="relative overflow-hidden">
@@ -69,7 +69,7 @@ export function Hero({ onWatchDemo }: HeroProps) {
         </div>
         <div className="bg-white rounded-2xl shadow-xl ring-1 ring-slate-200">
           {/* <h3 className="text-xl font-semibold mb-4">Apply to Join</h3> */}
-           <HubSpotForm portalId={portalId} formId={formId} targetId="form-section-1" />
+           <HubSpotForm data-region="na2" portalId={portalId}  formId={formId} targetId="form-section-1" />
         </div>
       </div>
     </section>
